@@ -56,7 +56,12 @@
 }
 
 @media (min-width: 768px) {
-  #section_trending article:nth-of-type(2) ~ article {
+  #section_trending .article_swatch + .article_swatch ~ article {
     display: none;
   }
+
+  .article_swatch .article_image {
+    height: 16rem;
+  }
+
 }
