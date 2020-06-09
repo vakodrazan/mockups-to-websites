@@ -22,3 +22,12 @@
 .section_container article:last-of-type {
   margin-block-end: 0;
 }
+
+@media (min-width: 768px) {
+
+  .section_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+  }
+}
