@@ -51,4 +51,13 @@
   .article_card {
     padding: 2rem 2rem;
   }
+
+  .article_card:nth-of-type(1) {
+    grid-area: article_card1;
+  }
+
+  .article_card:nth-of-type(2) {
+    grid-area: article_card2;
+  }
+
 }
