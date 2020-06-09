@@ -8,3 +8,11 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media (min-width: 768px) {
+
+  .category {
+    padding-block-end: 10rem;
+  }
+
+}
