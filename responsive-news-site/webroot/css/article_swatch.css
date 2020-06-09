@@ -54,3 +54,9 @@
   margin-block-start: 1rem;
   margin-block-end: 0;
 }
+
+@media (min-width: 768px) {
+  .article_swatch:nth-of-type(3) {
+    display: none;
+  }
+}
