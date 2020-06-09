@@ -6,16 +6,11 @@
   #section_trending {
   grid-template-areas:
     "header header"
-    "article1 article2";
+    "article2 article1";
   }
+
   section > header {
     grid-area: header;
-  }
-  .article_swatch:nth-of-type(1) {
-    grid-area: article1;
-  }
-  .article_swatch:nth-of-type(1) {
-    grid-area: article2;
   }
 
 }
