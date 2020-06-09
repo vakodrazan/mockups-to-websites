@@ -37,3 +37,26 @@
   order: 3;
   color: #A6ADB4;
 }
+
+
+@media (min-width: 768px) {
+  #section_happening_now .article_simple {
+    margin-block-start: 0;
+  }
+
+  #section_happening_now .article_simple:nth-of-type(1) {
+    grid-area: article_simple1;
+  }
+
+  #section_happening_now .article_simple:nth-of-type(2) {
+    grid-area: article_simple2;
+  }
+
+  #section_happening_now article:nth-of-type(4) ~ article {
+    display: none;
+  }
+
+  .article_simple .article_image {
+    height: 16rem;
+  }
+}
