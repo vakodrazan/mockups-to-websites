@@ -69,16 +69,21 @@ body > footer a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
+    padding: 3rem 5rem;
+  }
+
+  body > footer > h2 {
+    margin: 0;
   }
 
   .links_site {
     columns: 3;
     margin: 0;
-}
+  }
 
-.links_site li {
-  margin: 0;
-}
+  .links_site li {
+    margin: 0;
+  }
 
   .link_primary {
     display: block;
@@ -86,12 +91,8 @@ body > footer a {
 
   .links_social {
     order: 4;
-    padding-block-start: 5rem;
+    align-self: end;
     padding-inline-start: 10rem;
-  }
-
-  .form_subscribe {
-    order: 3;
   }
 
 }
