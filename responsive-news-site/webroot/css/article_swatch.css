@@ -56,7 +56,7 @@
 }
 
 @media (min-width: 768px) {
-  .article_swatch:nth-of-type(3) {
+  #section_trending article:nth-of-type(2) ~ article {
     display: none;
   }
 }
