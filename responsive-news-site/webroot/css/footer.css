@@ -96,3 +96,18 @@ body > footer a {
   }
 
 }
+
+
+@media (min-width: 1160px) {
+
+  body > footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .links_site {
+
+  }
+
+}
