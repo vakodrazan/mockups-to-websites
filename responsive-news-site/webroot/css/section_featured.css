@@ -30,3 +30,14 @@
   }
 
 }
+
+@media (min-width: 1160px) {
+  #section_featured {
+    max-width: 722px;
+  }
+
+  #section_featured .article_card {
+    padding: 8rem 6rem;
+  }
+
+}
