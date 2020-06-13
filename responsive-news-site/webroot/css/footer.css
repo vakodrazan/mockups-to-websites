@@ -61,10 +61,6 @@ body > footer a {
 
 @media (min-width: 768px) {
 
-  .section_container {
-    padding: 5rem 5rem;
-  }
-
   body > footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
