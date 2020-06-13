@@ -33,3 +33,11 @@
     padding-inline-end: 5rem;
   }
 }
+
+@media (min-width: 1160px) {
+
+  .section_container article:not(.article_card) {
+    margin: 0;
+  }
+
+}
