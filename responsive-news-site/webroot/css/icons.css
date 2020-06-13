@@ -38,3 +38,19 @@
 .icon_instagram { background-image: url(../images/icons/icon_instagram_white.svg); }
 .icon_twitter   { background-image: url(../images/icons/icon_twitter_white.svg); }
 .icon_web       { background-image: url(../images/icons/icon_world_white.svg); }
+
+
+@media (min-width: 1160px) {
+
+  .icon_instagram,
+  .icon_twitter,
+  .icon_facebook {
+    padding-inline-end: 2rem;
+  }
+
+  .links_social {
+    padding: 0;
+  }
+
+
+}
