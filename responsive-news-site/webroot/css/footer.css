@@ -104,11 +104,11 @@ body > footer a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    grid-area: footer;
   }
 
   .links_social {
     padding: 0;
   }
-
 
 }
