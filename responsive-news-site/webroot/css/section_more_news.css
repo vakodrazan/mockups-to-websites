@@ -45,3 +45,12 @@
   }
 
 }
+
+@media (min-width: 1160px) {
+
+  #section_more_news {
+    grid-area: section_more_news;
+  }
+
+
+}
