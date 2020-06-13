@@ -36,3 +36,13 @@
   }
 
 }
+
+
+@media (min-width: 1160px) {
+
+  #section_happening_now {
+    grid-area: section_happening_now;
+  }
+
+
+}
