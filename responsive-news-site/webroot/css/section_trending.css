@@ -22,8 +22,12 @@
   }
 
   #section_trending {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "header header header"
+    "article1 article2 article3"
+    ;
   }
 
 }
