@@ -65,5 +65,8 @@
 
 @media (min-width: 1160px) {
 
+  #section_featured .article_card {
+    padding: 14rem 8rem;
+  }
 
 }
