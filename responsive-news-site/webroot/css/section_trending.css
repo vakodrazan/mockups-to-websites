@@ -14,3 +14,16 @@
   }
 
 }
+
+@media (min-width: 1160px) {
+
+  #section_trending {
+    grid-area: section_trending;
+  }
+
+  #section_trending {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
