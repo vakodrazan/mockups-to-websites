@@ -69,4 +69,18 @@
     padding: 12.7rem 8rem;
   }
 
+  #section_happening_now .article_card:nth-of-type(1) {
+    grid-area: article_card1;
+    height: 430px;
+  }
+
+  #section_happening_now .article_card:nth-of-type(2) {
+    grid-area: article_card2;
+    margin-block-start: -12rem;
+  }
+
+  #section_happening_now .article_card {
+    width: 700px;
+  }
+
 }
