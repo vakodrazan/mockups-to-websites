@@ -46,3 +46,22 @@ nav > ul {
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: 1160px) {
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "section_featured section_more_news"
+    "section_trending section_trending"
+    "section_happening_now section_happening_now"
+    "footer footer"
+    ;
+
+  }
+
+
+
+
+}
