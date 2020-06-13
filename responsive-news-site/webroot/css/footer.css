@@ -106,8 +106,9 @@ body > footer a {
     justify-content: space-around;
   }
 
-  .links_site {
-
+  .links_social {
+    padding: 0;
   }
+
 
 }
