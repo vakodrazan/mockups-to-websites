@@ -73,3 +73,11 @@
   }
 
 }
+
+@media (min-width: 1160px) {
+
+  #section_trending .article_swatch + .article_swatch ~ article {
+    display: flex;
+  }
+
+}
