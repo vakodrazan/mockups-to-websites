@@ -50,6 +50,8 @@
 
   #section_more_news {
     grid-area: section_more_news;
+    display: flex;
+    flex-direction: column;
   }
 
 
