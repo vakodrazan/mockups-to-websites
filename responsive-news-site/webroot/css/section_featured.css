@@ -33,7 +33,8 @@
 
 @media (min-width: 1160px) {
   #section_featured {
-    max-width: 722px;
+    width: 720px;
+    grid-area: section_featured;
   }
 
   #section_featured .article_card {
