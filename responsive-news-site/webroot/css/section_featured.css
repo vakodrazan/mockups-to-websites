@@ -33,12 +33,8 @@
 
 @media (min-width: 1160px) {
   #section_featured {
-    width: 720px;
+    width: 820px;
     grid-area: section_featured;
-  }
-
-  #section_featured .article_card {
-    padding: 8rem 6rem;
   }
 
 }
